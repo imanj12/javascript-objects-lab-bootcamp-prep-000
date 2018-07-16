@@ -17,3 +17,5 @@ function deleteFromObjectByKey(recipes, ingredient) {
   delete newRecipes[ingredient]
   return newRecipes
 }
+
+function destructivelyDeleteFromObjectByKey(recipes, ingredient)
